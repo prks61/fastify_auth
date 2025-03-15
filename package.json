@@ -1,0 +1,23 @@
+{
+  "name": "fastify_framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/env": "^5.0.2",
+    "@fastify/sensible": "^6.0.3",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
